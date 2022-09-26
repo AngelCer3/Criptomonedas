@@ -10,11 +10,11 @@ function calcular (){
 
     switch(opciones){
         case 'b':
-            inversion = valor1 *1/bitcoin;
+            inversion = valor1 *1/(bitcoin+.33);
             mensaje = 'Puedes comprar\n'+inversion+'\nbitcoin con\n'+valor1;
             break;
         case 'e':
-            inversion = valor1 * 1 /etherum;
+            inversion = valor1 * 1 /(etherum+.36);
             mensaje = 'Puedes comprar\n'+inversion+'\netherum con\n'+valor1;
             break;
         case 'd':
