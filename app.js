@@ -11,19 +11,19 @@ function calcular (){
     switch(opciones){
         case 'b':
             inversion = valor1 *1/(bitcoin+.33);
-            mensaje = 'Puedes comprar\n'+inversion+'\nbitcoin con\n'+valor1;
+            mensaje = 'Puedes comprar\n'+inversion+'\nbitcoin con\n$'+valor1;
             break;
         case 'e':
             inversion = valor1 * 1 /(etherum+.36);
-            mensaje = 'Puedes comprar\n'+inversion+'\netherum con\n'+valor1;
+            mensaje = 'Puedes comprar\n'+inversion+'\netherum con\n$'+valor1;
             break;
         case 'd':
             inversion = valor1 * 1 /(dogecoin+.24);
-            mensaje = 'Puedes comprar\n'+inversion+'\ndogecoin con\n'+valor1;
+            mensaje = 'Puedes comprar\n'+inversion+'\ndogecoin con\n$'+valor1;
             break;
         case 'x':
             inversion = valor1 * 1 /(xrp+0.47450);
-            mensaje = 'Puedes comprar\n'+inversion+'\nxrp con\n'+valor1;
+            mensaje = 'Puedes comprar\n'+inversion+'\nxrp con\n$'+valor1;
             break;
         default:
             alert('No existe esta criptomoneda');
